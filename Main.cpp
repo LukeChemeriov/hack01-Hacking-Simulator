@@ -8,7 +8,7 @@
 
 /* *gulps* Here we go... there's no turning back now..  */
 int main() {
-    int continueValue = MessageBox(NULL, L"This hacking tool has the power to cause severe damage. Creator MD DEV is not responsible for any damage caused using this tool. Continue?", L"WARNING - POWERFUL TOOL", MB_OKCANCEL | MB_ICONWARNING | MB_APPLMODAL); /* haven't testind this, don't know if this works */ 
+    int continueValue = MessageBox(NULL, L"This hacking tool has the power to cause severe damage. Creator MD DEV is not responsible for any damage caused using this tool. Continue?", L"WARNING - POWERFUL TOOL", MB_OKCANCEL | MB_ICONWARNING | MB_APPLMODAL); /* haven't tested this, don't know if this works */ 
     if (continueValue == 2) {
         return -1;
     }
